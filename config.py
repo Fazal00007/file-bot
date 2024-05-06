@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "28290783"))
 API_HASH = os.environ.get("API_HASH", "b6b578c222d806d3afeb213f94e26eda")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "2133313915"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "1002133313915"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "7026164101"))
@@ -32,7 +32,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://rajputfc:<password>@clust
 DB_NAME = os.environ.get("DATABASE_NAME", "rajputfc")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "1001877662698"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
